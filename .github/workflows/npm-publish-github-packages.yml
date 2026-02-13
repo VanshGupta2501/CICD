@@ -20,7 +20,7 @@ jobs:
 
       - run: npm run build
 
-      - - run: |
-            sudo rm -rf /var/www/CICD/dist
-            sudo mkdir -p /var/www/CICD/dist
-            sudo cp -r dist/. /var/www/CICD/dist/
+      - run: |
+          sudo rm -rf /var/www/CICD/dist
+          sudo mkdir -p /var/www/CICD/dist
+          sudo cp -r dist/. /var/www/CICD/dist/
