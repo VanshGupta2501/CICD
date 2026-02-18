@@ -1,0 +1,29 @@
+.contactColour {
+  background-color: red;
+  cursor: pointer;
+  width: 100vw;      /* full width */
+  height: 100vh;     /* full height */
+  display: flex;     /* important */
+  justify-content: center;
+  align-items: center;
+}
+
+.pageColour {
+  background-color: blue;
+  cursor: pointer;
+  width: 100vw;      /* full width */
+  height: 100vh;     /* full height */
+  display: flex;     /* important */
+  justify-content: center;
+  align-items: center;
+}
+
+.homeColour {
+  background-color: rgb(255, 0, 247);
+  cursor: pointer;
+  width: 100vw;      /* full width */
+  height: 100vh;     /* full height */
+  display: flex;     /* important */
+  justify-content: center;
+  align-items: center;
+}

@@ -7,7 +7,7 @@ const home = () => {
         navigate(`/page`)
     }
   return (
-    <div>
+    <div className='homeColour'>
       <p onClick={handleNavigate}>home</p>
     </div>
   )
