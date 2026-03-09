@@ -8,7 +8,7 @@ const home = () => {
     }
   return (
     <div className='homeColour'>
-      <p onClick={handleNavigate}>home11</p>
+      <p onClick={handleNavigate}>homeabhishek</p>
     </div>
   )
 }
